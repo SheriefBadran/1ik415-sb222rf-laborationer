@@ -1,2 +1,4 @@
 {"ts":1378668169471,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
 {"contributors":[],"silentsave":false,"ts":1378668179379,"patch":[[{"diffs":[[1,"Test"]],"start1":0,"start2":0,"length1":0,"length2":4}]],"length":4,"saved":false}
+{"ts":1378668630908,"patch":[[{"diffs":[[-1,"Test"],[1,"<h1>Rubrik</h1>"]],"start1":0,"start2":0,"length1":4,"length2":15}]],"length":15,"saved":false}
+{"ts":1378668678214,"patch":[[{"diffs":[[0,"rik</h1>"],[1,"\n<a href=\"#\">Länk</a>"]],"start1":7,"start2":7,"length1":8,"length2":29}]],"length":36,"saved":false}

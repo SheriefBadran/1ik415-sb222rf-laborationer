@@ -2,3 +2,5 @@
 {"contributors":[],"silentsave":false,"ts":1378667754432,"patch":[[{"diffs":[[0,"uktion.\n"],[1,"\nHär kommer Sherief att samla allt material kring kursen."]],"start1":95,"start2":95,"length1":8,"length2":65}]],"length":160,"saved":false}
 {"ts":1378667888075,"patch":[[{"diffs":[[0," kursen."],[1,"\n\ntest\n"]],"start1":152,"start2":152,"length1":8,"length2":15}]],"length":167,"saved":false}
 {"ts":1378667900369,"patch":[[{"diffs":[[0,"n.\n\ntest"],[1,"."],[0,"\n"]],"start1":158,"start2":158,"length1":9,"length2":10}]],"length":168,"saved":false}
+{"ts":1378670599121,"patch":[[{"diffs":[[0,"n.\n\ntest"],[1,"ar lite till"],[0,".\n"]],"start1":158,"start2":158,"length1":10,"length2":22}]],"length":180,"saved":false}
+{"ts":1378670642324,"patch":[[{"diffs":[[0,"te till."],[-1,"\n"]],"start1":171,"start2":171,"length1":9,"length2":8}]],"length":179,"saved":false}

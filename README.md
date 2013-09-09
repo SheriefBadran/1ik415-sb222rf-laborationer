@@ -1,8 +1,7 @@
 1ik415-sb222rf-laborationer
 ===========================
 
-Mina laborationer i webbteknisk introduktion.
+Mina laborationer i webbteknisk introduktion:
 
-Här kommer Sherief att samla allt material kring kursen.
+Laborations uppgift 1.1 avklarad, en presentation av mig själv.
 
-testar lite till.

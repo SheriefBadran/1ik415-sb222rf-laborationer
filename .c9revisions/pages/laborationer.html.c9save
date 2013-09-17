@@ -52,3 +52,4 @@
 {"ts":1379400385321,"patch":[[{"diffs":[[0,"tr>\n"],[-1,"                        <td>1</td>\n"],[0,"    "]],"start1":2907,"start2":2907,"length1":43,"length2":8}]],"length":4637,"saved":false}
 {"ts":1379400402584,"patch":[[{"diffs":[[0,"pan=\"6\">"],[-1,"1"],[1,"2"],[0,"</td>\n  "]],"start1":2126,"start2":2126,"length1":17,"length2":17}]],"length":4637,"saved":false}
 {"ts":1379400461316,"patch":[[{"diffs":[[0,"            <td>"],[1,"Arbetar"],[0,"</td>\n          "]],"start1":1679,"start2":1679,"length1":32,"length2":39}]],"length":4644,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1379402646676,"patch":[[{"diffs":[[0,"      </dl>\n"],[1,"                \n"],[0,"            "]],"start1":4433,"start2":4433,"length1":24,"length2":41}]],"length":4661,"saved":false}

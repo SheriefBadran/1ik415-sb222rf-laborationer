@@ -22,6 +22,35 @@
                 </li>
             </ul>
         </div>
+        
+        <!-- tagit hjälp av w3c schools -->
+        <form border="1" method="post">
+            <fieldset>
+                <legend>Fråga</legend>
+                
+                <label>Ärendetyp</label><br/>
+                <select>
+                    <option value="html">HTML 5</option>
+                    <option value="css">CSS 3</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                </select>
+                
+                <br/><br/>
+                
+                <label for="rubrik">Rubrik: </label>
+    			<input type="text" name="rubrik" maxlength="30" value="" /><br/><br/>
+    			
+    			<label for="question">Fråga: </label>
+    			<input type="text" name="fråga" maxlength="30" value="" />
+            </fieldset>
+            
+            <fieldset>
+                <legend>Information om dig</legend>
+                <label for="mail">Kontakta mig via mail</label><input type="checkbox" name="mail" /><br>
+                <label for="phone">Kontakta mig via telefon</label><input type="checkbox" name="phone" />
+            </fieldset>
+        </form>
 
     </body>
 </html>

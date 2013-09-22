@@ -6,50 +6,66 @@
         <link href="css/style.css" rel="stylesheet" />
     </head>
     <body>
-        <div id = "menu">
-            <ul>
-                <li>
-                    <a href="#">Blogg</a>
-                </li>
-                <li>
-                    <a href="pages/laborationer.html">Laborationer</a>
-                </li>
-                <li>
-                    <a href="pages/presentation.html">Presentation</a>
-                </li>
-                <li>
-                    <a href="pages/kontakt.html">Kontakt</a>
-                </li>
-            </ul>
-        </div>
-        <!-- Hämtat inspiration och upplägg från NodeThirtyThree -->
-        <div id = "posts">
-            <div class = "post">
-                <h3>Första blogginlägget</h3>
-                <p>
-                    Det här är mitt första blogginlägg i min blogg som kommer att presentera uppgifter som görs i kursen webbteknisk introduktion.
-                </p>
-                <p class="poststamp">Sherief Badran, 2013-09-16  08:17</p>
+        <div id ="container">
+        
+            <div id="header">
+                
             </div>
-            <div class = "post">
-                <h3>Filmklipp med HTML 5 video tagg</h3>
-                <video width="320" height="240" controls>
-                    <source src="videos/trailer_400p.ogg" type="video/ogg" />
-                </video>
-                <p class="poststamp">Sherief Badran, 2013-09-16 18:05</p>
+            
+            <div class="wrapper">
+                <div id="left">
+                    <nav>
+                        <ul>
+                            <li class="menuitem">
+                                <a href="#" class="active">Blogg</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="pages/laborationer.html">Laborationer</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="pages/presentation.html">Presentation</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="pages/kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div id="content">
+                    <!-- Hämtat inspiration och upplägg från NodeThirtyThree -->
+                    <div id ="posts">
+                        <div class="post">
+                            <h3>Första blogginlägget</h3>
+                            <p>
+                                Det här är mitt första blogginlägg i min blogg som kommer att presentera uppgifter som görs i kursen webbteknisk introduktion.
+                            </p>
+                            <p class="poststamp">Sherief Badran, 2013-09-16  08:17</p>
+                        </div>
+                        <div class ="post">
+                            <h3>Filmklipp med HTML 5 video tagg</h3>
+                            <video width="320" height="240" controls>
+                                <source src="videos/trailer_400p.ogg" type="video/ogg" />
+                            </video>
+                            <p class="poststamp">Sherief Badran, 2013-09-16 18:05</p>
+                        </div>
+                        <div class ="post">
+                            <img src="pics/logo.png" alt="Bild på en skissad fråga på engelska" width="200" height="150" />
+                            <p class="poststamp">Sherief Badran, 2013-09-16 21:54</p>
+                        </div>
+                        <div class ="post">
+                            <!-- http://all-free-download.com/free-vector/vector-clip-art/twitter_bird_mascot_54518_download.html -->
+                            <img id="twitterbird" src="pics/twitter.svg" alt="Twitter fråglar"  />
+                            <p class="poststamp">Sherief Badran, 2013-09-16 22:25</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class = "post">
-                <img src="pics/logo.png" alt="Bild på en skissad fråga på engelska" width="200" height="150" />
-                <p class="poststamp">Sherief Badran, 2013-09-16 21:54</p>
+            
+            <div id ="footer">
+                <p> Copyright &copy; Sherief Badran </p>
             </div>
-            <div class = "post">
-                <!-- http://all-free-download.com/free-vector/vector-clip-art/twitter_bird_mascot_54518_download.html -->
-                <img id="twitterbird" src="pics/twitter.svg" alt="Twitter fråglar"  />
-                <p class="poststamp">Sherief Badran, 2013-09-16 22:25</p>
-            </div>
-        </div>
-        <div id = "footer">
-            <p> Copyright &copy; Sherief Badran </p>
+            
         </div>
     </body>
 </html>

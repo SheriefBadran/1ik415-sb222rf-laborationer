@@ -1,6 +1,7 @@
 /*
     Colors
     #184574
+    http://freetwitterheaders.net/mindless-behaviour/
 */
 
 
@@ -53,30 +54,36 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* css reset end */
+/* CSS RESET END */
 
-/*
-video{
-    display: block;
-    margin: 0 auto;
-}
-*/
 
 h3{
     font-family: "aral black", Arial, Helvetica;
     font-size: 2em;
+    letter-spacing: 1px;
     padding-bottom: 20px;
+    color: #000;
 }
 
 p{
-    font-family: Arial, Helvetica Sans-serif;
+    /* font-family given in container */
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
+
+a{
+    /* font-family given in container */
+    font-size: 1em;
+}
+
 
 #container{
     width: 1200px;
     min-height: 960px;
-    margin: auto auto;
-    border: 1px solid #000;
+    margin: 25px auto 25px auto;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, Sans-serif;
 }
 
 #header{
@@ -103,7 +110,9 @@ p{
 
 #left nav{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px 0px 0px 75px;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    margin: 50px 50px;
     
 }
 
@@ -111,19 +120,19 @@ p{
     list-style-type: none;
 }
 
-/* empty space between each li item */
+/* empty space between each li item with margin bottom */
 .menuitem{
-    width: 120px;
-    padding: 10px;
+    width: 180px;
     background: #006B53;
     border-radius: 10px;
     margin-bottom: 7px;
 }
 
 #left nav li a{
-    display: block;
     text-decoration: none;
+    padding: 15px;
     color: #fff;
+    display: block;
 }
 
 #left nav li:hover{
@@ -135,8 +144,11 @@ p{
     text-decoration: underline;
 }
 
+/* LEFT NAVIGATION END */
+
 #content{
     margin-left: 270px;
+    padding-bottom: 10px;
 }
 
 .post{
@@ -151,6 +163,12 @@ p{
     padding-top: 10px;
     font-size: 1em;
 }
+
+.poststamp p{
+    font-size: 1em;
+}
+
+/* CONTENT END */
 
 #footer{
     clear: both;

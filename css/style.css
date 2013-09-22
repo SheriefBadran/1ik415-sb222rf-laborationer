@@ -53,7 +53,24 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* css reset end */
 
+/*
+video{
+    display: block;
+    margin: 0 auto;
+}
+*/
+
+h3{
+    font-family: "aral black", Arial, Helvetica;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: Arial, Helvetica Sans-serif;
+}
 
 #container{
     width: 1200px;
@@ -111,12 +128,28 @@ table {
 
 #left nav li:hover{
     text-decoration: underline;
-    
     background: #1F7B67;
+}
+
+.active{
+    text-decoration: underline;
 }
 
 #content{
     margin-left: 270px;
+}
+
+.post{
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0px 25px 0px;
+    width: 800px;
+    border-bottom: 2px solid #ff280f;
+}
+
+.poststamp{
+    padding-top: 10px;
+    font-size: 1em;
 }
 
 #footer{

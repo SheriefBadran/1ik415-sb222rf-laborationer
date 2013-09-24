@@ -56,6 +56,10 @@ table {
 }
 /* CSS RESET END */
 
+h1{
+    font-size: 2.3em;
+}
+
 h2, h3{
     font-family: "aral black", Arial, Helvetica;
     font-size: 2em;
@@ -69,11 +73,13 @@ p{
     font-size: 1.1em;
     letter-spacing: 1px;
     line-height: 25px;
+    margin-bottom: 10px;
 }
 
 a{
     /* font-family given in container */
     font-size: 1em;
+    color: #000;
 }
 
 
@@ -152,31 +158,31 @@ a{
 
 /* LEFT NAVIGATION END */
 
-section{
+.repos{
     display: block;
     margin-left: 40px;
 }
 
-section h1{
+.repos h1{
     font-family: "arial-black", Helvetica, sans-serif;
     font-size: 1.5em;
     border-bottom: 1px solid #dadde3;
     padding: 10px;
 }
 
-section ul{
+.repos ul{
     padding: 10px;
 }
 
-section ul li a{
+.repos ul li a{
     color: #545454;
 }
 
-section ul li a:hover{
+.repos ul li a:hover{
     color: #ff280f;
 }
 
-section p{
+.repos p{
     font-family: arial, Helvetica, sans-serif;
     font-size: 1em;
     letter-spacing: 0px;
@@ -270,6 +276,10 @@ tfoot{
     border-bottom: 2px solid #ff280f;
 }
 
+.lastpost{
+    border-bottom: none;
+}
+
 .poststamp{
     padding-top: 10px;
     font-size: 1em;
@@ -283,6 +293,10 @@ tfoot{
     padding: 30px 120px;
 }
 
+#earthImg{
+    border-radius: 5px;
+}
+
 div.imgBoxLeft{
     float: left;
     padding: 10px;
@@ -291,6 +305,70 @@ div.imgBoxLeft{
 div.imgBoxRight{
     float: right;
 }
+
+/* END BLOGGPOSTS */
+
+#presentationImg{
+    margin: 20px;
+    border: 2px solid #4B81BA;
+}
+
+#hobbylist{
+    margin-left: 20px;
+    margin-bottom: 20px;    
+}
+
+#hobbylist ul li{
+    padding: 5px;
+}
+
+#programmingList{
+    margin: 0  0 20px 30px;
+}
+
+#programmingList ul li.listHeading{
+    list-style-type: circle;
+    font-weight: bold;
+}
+
+#programmingList li{
+    padding: 5px;
+}
+
+#programmingList li ol{
+    margin-left: 35px;
+    list-style-type: decimal;
+    font-size: 0.8em;
+}
+
+#bookList{
+    margin: 0 0 20px 10px;
+    font-family: Arial, Helvetiva, sans-serif;
+}
+
+#bookList dt{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.laboration{
+    margin-bottom: 30px;
+}
+
+dd{
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+#urlList dt{
+    padding-top: 10px;
+}
+
+#urlList li{
+    padding: 5px;
+}
+
+/* END Lists */
 
 /* CONTENT END */
 

@@ -2,57 +2,71 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8" />
-        <title>Titel</title>
+        <title>Kontakt</title>
+        <link href="../css/style.css" rel="stylesheet" />
     </head>
     <body>
-    
-        <div id ="menu">
-            <ul>
-                <li>
-                    <a href="../index.html">Blogg</a>
-                </li>
-                <li>
-                    <a href="laborationer.html">Laborationer</a>
-                </li>
-                <li>
-                    <a href="presentation.html">Presentation</a>
-                </li>
-                <li>
-                    <a href="#">Kontakt</a>
-                </li>
-            </ul>
+        <div id ="container">
+            <div id="header">
+                <!-- Background Image -->
+            </div>
+            <div class="wrapper">
+                <div id="left">
+                    <nav>
+                        <ul>
+                            <li class="menuitem">
+                                <a href="../index.html">Blogg</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="laborationer.html">Laborationer</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="presentation.html">Presentation</a>
+                            </li>
+                            <li class="menuitem backgroundActive">
+                                <a href="#" class="active">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div id="content" class="contentIndent">
+                    <!-- tagit hjälp av w3c schools -->
+                    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                        <fieldset>
+                            <legend>Fråga</legend>
+                            
+                            <label>Ärendetyp:</label>
+                            <select name="teknik">
+                                <option value="html">HTML 5</option>
+                                <option value="css">CSS 3</option>
+                                <option value="javascript">JavaScript</option>
+                                <option value="php">PHP</option>
+                            </select>
+                            
+                            <br/><br/>
+                            
+                            <label for="heading">Rubrik: </label>
+                			<input id="heading" type="text" name="heading" maxlength="30" value="" /><br/><br/>
+                			
+                			<label for="question">Fråga: </label>
+                			<textarea id="question" name="question" rows="5" cols="40"></textarea>
+                        </fieldset>
+                        
+                        <fieldset>
+                            <legend>Information om dig</legend>
+                            <label for="mail">Kontakta mig via mail</label><input id="mail" type="checkbox" name="mail" /><br>
+                            <label for="phone">Kontakta mig via telefon</label><input id="phone" type="checkbox" name="phone" />
+                        </fieldset>
+                        
+                        <input type="submit" name="button" value="Skicka frågan" />
+                    </form>
+                </div>
+                
+                <div id ="footer">
+                    <p> Copyright &copy; 2013 Sherief Badran </p>
+                </div>
+            </div>
         </div>
-        
-        <!-- tagit hjälp av w3c schools -->
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-            <fieldset>
-                <legend>Fråga</legend>
-                
-                <label>Ärendetyp:</label>
-                <select name="teknik">
-                    <option value="html">HTML 5</option>
-                    <option value="css">CSS 3</option>
-                    <option value="javascript">JavaScript</option>
-                    <option value="php">PHP</option>
-                </select>
-                
-                <br/><br/>
-                
-                <label for="heading">Rubrik: </label>
-    			<input id="heading" type="text" name="heading" maxlength="30" value="" /><br/><br/>
-    			
-    			<label for="question">Fråga: </label>
-    			<textarea id="question" name="question" rows="5" cols="40"></textarea>
-            </fieldset>
-            
-            <fieldset>
-                <legend>Information om dig</legend>
-                <label for="mail">Kontakta mig via mail</label><input id="mail" type="checkbox" name="mail" /><br>
-                <label for="phone">Kontakta mig via telefon</label><input id="phone" type="checkbox" name="phone" />
-            </fieldset>
-            
-            <input type="submit" name="button" value="Skicka frågan" />
-        </form>
-
     </body>
 </html>

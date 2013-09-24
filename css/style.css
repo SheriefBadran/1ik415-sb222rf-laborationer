@@ -56,8 +56,7 @@ table {
 }
 /* CSS RESET END */
 
-
-h3{
+h2, h3{
     font-family: "aral black", Arial, Helvetica;
     font-size: 2em;
     letter-spacing: 1px;
@@ -123,9 +122,18 @@ a{
 /* empty space between each li item with margin bottom */
 .menuitem{
     width: 180px;
-    background: #006B53;
+    background-color: #006B53;
     border-radius: 10px;
     margin-bottom: 7px;
+}
+
+.active{
+    text-decoration: underline !important;
+}
+
+.backgroundActive{
+    background-color: #1F7B67 !important;
+    border-radius: 10px;
 }
 
 #left nav li a{
@@ -140,11 +148,114 @@ a{
     background: #1F7B67;
 }
 
-.active{
-    text-decoration: underline;
-}
+
 
 /* LEFT NAVIGATION END */
+
+section{
+    display: block;
+    margin-left: 40px;
+}
+
+section h1{
+    font-family: "arial-black", Helvetica, sans-serif;
+    font-size: 1.5em;
+    border-bottom: 1px solid #dadde3;
+    padding: 10px;
+}
+
+section ul{
+    padding: 10px;
+}
+
+section ul li a{
+    color: #545454;
+}
+
+section ul li a:hover{
+    color: #ff280f;
+}
+
+section p{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0px;
+    color: #545454;
+    border-bottom: 1px solid #dadde3;
+    padding: 10px;
+}
+
+/* END GITHUB REPO SECTION IN LEFT COLUMN */
+
+.labLinks ul{
+    margin-left: 17px;
+    margin-bottom: 40px;
+}
+
+.labLinks ul li{
+    font-style: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    list-style-type: circle;
+}
+
+.labLinks ul li a{
+    font-size: 1.1em;
+    color: #000;
+}
+
+/* LAB LINKS END */
+
+table{
+    border-collapse: collapse;
+    border: 3px solid #031931;
+    margin-bottom: 40px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead{
+    color: #fff;
+    border: 1px solid #4B81BA;
+    background-color: #08294B;
+    font-weight: bold;
+    text-align: center;
+}
+
+td{
+    border: 1px solid #4B81BA;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+td.firstRowTdOne{
+    color: #fff;
+    background-color: #184574;
+}
+
+td.secondRowTdOne{
+    color: #fff;
+    background-color: #184574;
+}
+
+tr.evenRow{
+    color: inherit;
+    background-color: #184574;
+}
+
+tr.oddRow{
+    color: inherit;
+    background-color: #233D57;
+}
+
+tfoot{
+    color: inherit;
+    background-color: #08294B;
+}
+
+/* TABLE DESIGN END */
 
 #content{
     margin-left: 270px;
@@ -154,7 +265,7 @@ a{
 .post{
     display: block;
     margin: 0 auto;
-    padding: 25px 0px 25px 0px;
+    padding: 25px 25px;
     width: 800px;
     border-bottom: 2px solid #ff280f;
 }
@@ -168,11 +279,29 @@ a{
     font-size: 1em;
 }
 
+.contentIndent{
+    padding: 30px 120px;
+}
+
+div.imgBoxLeft{
+    float: left;
+    padding: 10px;
+}
+
+div.imgBoxRight{
+    float: right;
+}
+
 /* CONTENT END */
 
 #footer{
     clear: both;
     height: 200px;
     background-color: #fff;
+    border-top: 1px solid #ff280f;
 }
 
+#footer p{
+    text-align: center;
+    margin-top: 90px;
+}

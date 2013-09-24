@@ -3,143 +3,159 @@
     <head>
         <meta charset="utf-8" />
         <title>Laborationer</title>
+        <link href="../css/style.css" rel="stylesheet" />
     </head>
     <body>
-        <div id="container">
-            <div id = "menu">
-                <ul>
-                    <li>
-                        <a href="../index.html">Blogg</a>
-                    </li>
-                    <li>
-                        <a href="#">Laborationer</a>
-                    </li>
-                    <li>
-                        <a href="presentation.html">Presentation</a>
-                    </li>
-                    <li>
-                        <a href="kontakt.html">Kontakt</a>
-                    </li>
-                </ul>
+        <div id ="container">
+            <div id="header">
+                <!-- Background Image -->
+            </div>
+            <div class="wrapper">
+                <div id="left">
+                    <nav>
+                        <ul>
+                            <li class="menuitem">
+                                <a href="../index.html">Blogg</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="#" class="active backgroundActive">Laborationer</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="presentation.html">Presentation</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div id="content" class="contentIndent">
+                    <h2> Webbteknisk Introduktion</h2>
+            
+                    <div class="labLinks">
+                        <ul>
+                            <li>
+                                <a href="#labb1">Laboration 1</a>
+                            </li>
+                            <li>
+                                <a href="#labb2">Laboration 2</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Laboration</th>
+                                <th>Uppgift</th>
+                                <th>Status</th>
+                                <th>Redovisad</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">
+                                    Sherief´s Laborationer
+                                </td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            <tr class="oddRow">
+                                <td rowspan="3" class="firstRowTdOne">1</td>
+                                <td>1</td>
+                                <td>Klar</td>
+                                <td>Ja</td>
+                            </tr>
+                            <tr class="evenRow">
+                                <td>2</td>
+                                <td>Klar</td>
+                                <td>Ja</td>
+                            </tr>
+                            <tr class="oddRow">
+                                <td class="oddRow">3</td>
+                                <td>Arbetar</td>
+                                <td></td>
+                            </tr>
+                            <tr class="oddRow">
+                                <td rowspan="6" class="secondRowTdOne">2</td>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="evenRow">
+                                <td>2</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="oddRow">
+                                <td>3</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="evenRow">
+                                <td>4</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="oddRow">
+                                <td>5</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="evenRow">
+                                <td>6</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <h3 id="labb1"> Laboration 1 </h3>
+                    <p>Uppgifter:</p>
+                    <ol>
+                        <li>www-katalog. Check</li>
+                        <li><a href="presentation.html">Ett första dokument</a></li>
+                        
+                    </ol>
+                    
+                    <h3 id="labb2"> Laboration 2 </h3>
+                    <p>Uppgifter:</p>
+                    <ol>
+                        <li>
+                            Absoluta och relativa sökvägar
+                            <dl>
+                                <dt>Skriv den absoluta sökvägen till fillen bottom.html</dt>
+                                    <dd>http://www.server.se/html/pages/bottom.html</dd>
+                                <dt>Skriv den relativa sökvägen från filen default.html till filen top.html</dt>
+                                    <dd>pages/top</dd>
+                                <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
+                                    <dd>../../index.html</dd>
+                                <dt>Skriv den absoluta sökvägen till filen index.html</dt>
+                                    <dd>http://www.server.se/index.html</dd>
+                                <dt>Skriv den relativa sökvägen från filen top.html till bottom.html</dt>
+                                    <dd>bottom.html</dd>
+                                <dt>Skriv den relativa sökvägen från filen index.html till top.html</dt>
+                                    <dd>html/pages/top.html</dd>
+                            </dl>
+                        </li>
+                        <li>Länkar och listor</li>
+                        <li><a href="../index.html#twitterbird">Bilder</a>
+                            <ul>
+                                <li>
+                                    <a href="../pics/logo.png">Logotyp</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Video</li>
+                    </ol>
+                </div>
             </div>
             
-            <h2> Webbteknisk Introduktion</h2>
+            <div id ="footer">
+                <p> Copyright &copy; 2013 Sherief Badran </p>
+            </div>
             
-            <ul>
-                <li>
-                    <a href="#labb1">Laboration 1</a>
-                </li>
-                <li>
-                    <a href="#labb2">Laboration 2</a>
-                </li>
-            </ul>
-            
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Laboration</th>
-                        <th>Uppgift</th>
-                        <th>Status</th>
-                        <th>Redovisad</th>
-                    </tr>
-                </thead>
-                <tfoot>
-                    <tr>
-                        <td colspan="4">
-                            Sherief´s Laborationer
-                        </td>
-                    </tr>
-                </tfoot>
-                <tbody>
-                    <tr>
-                        <td rowspan="3">1</td>
-                        <td>1</td>
-                        <td>Arbetar</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="6">2</td>
-                        <td>1</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <h3 id="labb1"> Laboration 1 </h3>
-            <p>Uppgifter:</p>
-            <ol>
-                <li>www-katalog. Check</li>
-                <li><a href="presentation.html">Ett första dokument</a></li>
-                
-            </ol>
-            
-            <h3 id="labb2"> Laboration 2 </h3>
-            <p>Uppgifter:</p>
-            <ol>
-                <li>
-                    Absoluta och relativa sökvägar
-                    <dl>
-                        <dt>Skriv den absoluta sökvägen till fillen bottom.html</dt>
-                            <dd>http://www.server.se/html/pages/bottom.html</dd>
-                        <dt>Skriv den relativa sökvägen från filen default.html till filen top.html</dt>
-                            <dd>pages/top</dd>
-                        <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
-                            <dd>../../index.html</dd>
-                        <dt>Skriv den absoluta sökvägen till filen index.html</dt>
-                            <dd>http://www.server.se/index.html</dd>
-                        <dt>Skriv den relativa sökvägen från filen top.html till bottom.html</dt>
-                            <dd>bottom.html</dd>
-                        <dt>Skriv den relativa sökvägen från filen index.html till top.html</dt>
-                            <dd>html/pages/top.html</dd>
-                    </dl>
-                </li>
-                <li>Länkar och listor</li>
-                <li><a href="../index.html#twitterbird">Bilder</a>
-                    <ul>
-                        <li>
-                            <a href="../pics/logo.png">Logotyp</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>Video</li>
-            </ol>
         </div>
-
     </body>
 </html>

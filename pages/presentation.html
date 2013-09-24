@@ -3,130 +3,155 @@
     <head>
         <meta charset="utf-8" />
         <title>Presentation</title>
+        <link href="../css/style.css" rel="stylesheet" />
     </head>
     <body>
-        <div id="container">
-        
-        <div id = "menu">
-            <ul>
-                <li>
-                    <a href="../index.html">Blogg</a>
-                </li>
-                <li>
-                    <a href="laborationer.html">Laborationer</a>
-                </li>
-                <li>
-                    <a href="#">Presentation</a>
-                </li>
-                <li>
-                    <a href="kontakt.html">Kontakt</a>
-                </li>
-            </ul>
-        </div>
-        
-            <h1> Sherief Badran </h1>
-            
-            <img src="../pics/sos.JPG" alt="Bild på Sherief och hans dotter Selma" height="240" width="320" />
-            
-            <h2> Intressen </h2>
-            <ul>
-                <li> Hänga med familj och vänner. </li>
-                <li> Tennis. </li>
-                <li> Programmera JavaScript. </li>
-                <li> Resa. </li>
-            </ul>
-            
-            <h2> Familj </h2>
-            <p> 
-                Jag har flyttat till Kalmar tillsammans med min familj för att läsa webbprogrammering i minst två år.
-                Är nog sugen på att läsa ett tredje år men det beror givetvis på hur det går.
-            </p>
-            <p>
-                Min sambo heter Therese och tillsammans har vi en liten dotter på 3 år.
-            </p>
-            
-            <h2> Styrkor/Svagheter </h2>
-            <p>
-                Min styrka är att jag är väldigt envis, det är på gott och ont eftersom jag allt för ofta tenderar
-                att djupdyka och fördjupa mig i saker fast än jag inte har tid. Ibland faller det på att jag ger mig ut på för hal is.
-            </p>
-            
-            <h2> Tidigare Utbildning </h2>
-            <p> 
-                Med start hösten 2003 påbörjade jag en civilingengörsutbildning (teknisk fysik) på KTH i Stockholm. Det är en väldigt
-                tung utbildning så efter 2 år blev jag väldigt utmattad och studietrött. Jag började missa tentor och hade dessutom ett par
-                kurser efter mig sedan tidigare. Jag fick lägga all vaken tid av dygnet på studier för att i bästa fall klara kurserna vilket
-                resulterade i att jag började fundera på om det var värt arbetet. Jag kom fram till att det inte var så extremt viktigt för mig
-                att ta en civilingengörsexamen, och prövade därför att ta ett sabbatsår.
-            </p>
-            
-            <h2>
-                Arbetslivserfarenhet
-            </h2>
-            <p>
-                Under sabbatsåret flyttade jag till Göteborg och tog ett jobb som lärare i matematik och fysik. Det tyckte jag var väldigt roligt
-                och givande eftersom jag brinner väldigt mycket för de ämnena. Det var även under mitt sabbatsår som jag träffade min sambo Therese.
-                Det var med andra ord ett väldigt lyckat år.
-            </p>
-            <p>
-                Jag fortsatte sedan att jobba som lärare fram till och med hösten 2013. Under min tid som lärare testade jag av en slump på html, css och senare
-                även JavaScript och PHP. Jag fattade intresse för detta till den grad att det blev som en hobby.
-            </p>
-            
-            <h2>
-                Programmering
-            </h2>
-            <p> Följande har jag prövat på tidigare inom programmering/webbutveckling: </p>
-            
-            <ul>
-                <li>
-                    HTML
-                    <ol>
+        <div id ="container">
+            <div id="header">
+                <!-- Background Image -->
+            </div>
+            <div class="wrapper">
+                <div id="left">
+                    <nav>
+                        <ul>
+                            <li class="menuitem">
+                                <a href="../index.html">Blogg</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="laborationer.html">Laborationer</a>
+                            </li>
+                            <li class="menuitem backgroundActive">
+                                <a href="#" class="active">Presentation</a>
+                            </li>
+                            <li class="menuitem">
+                                <a href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <section class="repos">
+                        <h1>GitHub Repos</h1>
+                        <ul id="gh_repos">
+                            <li>
+                                <a href="https://github.com/SheriefBadran/1ik415-sb222rf-laborationer">Webbteknisk Introduktion</a>
+                            </li>
+                            <p>--Laborationsuppgifter--</p>
+                        </ul>
+                    </section>
+                    
+                </div>
+                
+                <div id="content" class="contentIndent">
+                    <h1> Sherief Badran </h1>
+                    
+                    <img src="../pics/sos.JPG" alt="Bild på Sherief och hans dotter Selma" height="240" width="320" />
+                    
+                    <h2> Intressen </h2>
+                    <ul>
+                        <li> Hänga med familj och vänner. </li>
+                        <li> Tennis. </li>
+                        <li> Programmera JavaScript. </li>
+                        <li> Resa. </li>
+                    </ul>
+                    
+                    <h2> Familj </h2>
+                    <p> 
+                        Jag har flyttat till Kalmar tillsammans med min familj för att läsa webbprogrammering i minst två år.
+                        Är nog sugen på att läsa ett tredje år men det beror givetvis på hur det går.
+                    </p>
+                    <p>
+                        Min sambo heter Therese och tillsammans har vi en liten dotter på 3 år.
+                    </p>
+                    
+                    <h2> Styrkor/Svagheter </h2>
+                    <p>
+                        Min styrka är att jag är väldigt envis, det är på gott och ont eftersom jag allt för ofta tenderar
+                        att djupdyka och fördjupa mig i saker fast än jag inte har tid. Ibland faller det på att jag ger mig ut på för hal is.
+                    </p>
+                    
+                    <h2> Tidigare Utbildning </h2>
+                    <p> 
+                        Med start hösten 2003 påbörjade jag en civilingengörsutbildning (teknisk fysik) på KTH i Stockholm. Det är en väldigt
+                        tung utbildning så efter 2 år blev jag väldigt utmattad och studietrött. Jag började missa tentor och hade dessutom ett par
+                        kurser efter mig sedan tidigare. Jag fick lägga all vaken tid av dygnet på studier för att i bästa fall klara kurserna vilket
+                        resulterade i att jag började fundera på om det var värt arbetet. Jag kom fram till att det inte var så extremt viktigt för mig
+                        att ta en civilingengörsexamen, och prövade därför att ta ett sabbatsår.
+                    </p>
+                    
+                    <h2>
+                        Arbetslivserfarenhet
+                    </h2>
+                    <p>
+                        Under sabbatsåret flyttade jag till Göteborg och tog ett jobb som lärare i matematik och fysik. Det tyckte jag var väldigt roligt
+                        och givande eftersom jag brinner väldigt mycket för de ämnena. Det var även under mitt sabbatsår som jag träffade min sambo Therese.
+                        Det var med andra ord ett väldigt lyckat år.
+                    </p>
+                    <p>
+                        Jag fortsatte sedan att jobba som lärare fram till och med hösten 2013. Under min tid som lärare testade jag av en slump på html, css och senare
+                        även JavaScript och PHP. Jag fattade intresse för detta till den grad att det blev som en hobby.
+                    </p>
+                    
+                    <h2>
+                        Programmering
+                    </h2>
+                    <p> Följande har jag prövat på tidigare inom programmering/webbutveckling: </p>
+                    
+                    <ul>
                         <li>
-                            XHTML
+                            HTML
+                            <ol>
+                                <li>
+                                    XHTML
+                                </li>
+                                <li>
+                                    HTML 5
+                                </li>
+                            </ol>
                         </li>
                         <li>
-                            HTML 5
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    CSS
-                </li>
-                <li>
-                    JavaScript
-                    <ol>
-                        <li>
-                            Ajax
+                            CSS
                         </li>
                         <li>
-                            Modul och Facade pattern
+                            JavaScript
+                            <ol>
+                                <li>
+                                    Ajax
+                                </li>
+                                <li>
+                                    Modul och Facade pattern
+                                </li>
+                                <li>
+                                    Prototyper och arv
+                                </li>
+                                <li>
+                                    Unit testing
+                                </li>
+                            </ol>
                         </li>
-                        <li>
-                            Prototyper och arv
-                        </li>
-                        <li>
-                            Unit testing
-                        </li>
-                    </ol>
-                </li>
-            </ul>
+                    </ul>
+                    
+                    <p> Om man lärt sig grunderna i javaScript hyfsat bra rekommenderar jag att läsa följande böcker för att ta sig vidare: </p>
+                    
+                    <!-- Listat böcker i dt taggarna och författare i dd taggarna. -->
+                    <dl>
+                        <dt>Object-Oriented JavaScript</dt>
+                            <dd>Stoyan Stefanov</dd>
+                        <dt>JavaScript Patterns</dt>
+                            <dd>Stoyan Stefanov</dd>
+                        <dt>High Performance JavaScript</dt>
+                            <dd>Nicholas C. Zakas</dd>
+                        <dt>Even Faster Web Sites</dt>
+                            <dd>Steve Sounders</dd>
+                        <dt>AJAX and PHP: Building Responsive Web Applications</dt>
+                            <dd>Cristian Darie, Bogdan Brinzarea</dd>
+                    </dl>
+                </div>
+            </div>
             
-            <p> Om man lärt sig grunderna i javaScript hyfsat bra rekommenderar jag att läsa följande böcker för att ta sig vidare: </p>
+            <div id ="footer">
+                <p> Copyright &copy; 2013 Sherief Badran </p>
+            </div>
             
-            <!-- Listat böcker i dt taggarna och författare i dd taggarna. -->
-            <dl>
-                <dt>Object-Oriented JavaScript</dt>
-                    <dd>Stoyan Stefanov</dd>
-                <dt>JavaScript Patterns</dt>
-                    <dd>Stoyan Stefanov</dd>
-                <dt>High Performance JavaScript</dt>
-                    <dd>Nicholas C. Zakas</dd>
-                <dt>Even Faster Web Sites</dt>
-                    <dd>Steve Sounders</dd>
-                <dt>AJAX and PHP: Building Responsive Web Applications</dt>
-                    <dd>Cristian Darie, Bogdan Brinzarea</dd>
-            </dl>
         </div>
     </body>
 </html>

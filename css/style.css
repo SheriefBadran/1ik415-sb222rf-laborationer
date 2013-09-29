@@ -16,8 +16,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+dl, dt, dd, ol, ul, li, label, legend, form,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
@@ -104,6 +103,30 @@ a{
     white 25%,
     #f9f9f9 25%,
     white 100%);
+    
+    background-image: -moz-linear-gradient(left,
+    #f9f9f9 0%,
+    white 25%,
+    #f9f9f9 25%,
+    white 100%);
+    
+    background-image: -o-linear-gradient(left,
+    #f9f9f9 0%,
+    white 25%,
+    #f9f9f9 25%,
+    white 100%);
+    
+    background-image: -ms-linear-gradient(left,
+    #f9f9f9 0%,
+    white 25%,
+    #f9f9f9 25%,
+    white 100%);
+    
+    background-image: linear-gradient(left,
+    #f9f9f9 0%,
+    white 25%,
+    #f9f9f9 25%,
+    white 100%);
 }
 
 /* column colors end */
@@ -150,6 +173,7 @@ a{
 }
 
 #left nav li:hover{
+    color: #fff;
     text-decoration: underline;
     background: #1F7B67;
 }
@@ -168,10 +192,12 @@ a{
     font-size: 1.5em;
     border-bottom: 1px solid #dadde3;
     padding: 10px;
+    text-align: center;
 }
 
 .repos ul{
     padding: 10px;
+    text-align: center;
 }
 
 .repos ul li a{
@@ -189,6 +215,7 @@ a{
     color: #545454;
     border-bottom: 1px solid #dadde3;
     padding: 10px;
+    text-align: center;
 }
 
 /* END GITHUB REPO SECTION IN LEFT COLUMN */
@@ -369,6 +396,51 @@ dd{
 }
 
 /* END Lists */
+
+.top{
+    border: 2px solid #184574;
+    margin-bottom: 30px;
+}
+
+.bottom{
+    border: 2px solid #184574;
+}
+
+legend{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: "arial-black", Helvetica, sans-serif;
+}
+
+.label{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 20px;
+}
+
+select{
+    border: 1px solid #233D57;
+}
+
+select:focus{
+    border: 1px solid #233D57;
+}
+
+.textfield{
+    border: 1px solid #233D57;
+}
+
+.textfield:focus{
+    border: 1px solid #233D57;
+    font-style: Arial, Helvetica sans-serif;
+    color: #000;
+}
+/* END FORM STYLING */
+
+
 
 /* CONTENT END */
 

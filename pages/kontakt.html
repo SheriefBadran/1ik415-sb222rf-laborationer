@@ -32,11 +32,11 @@
                 
                 <div id="content" class="contentIndent">
                     <!-- tagit hjälp av w3c schools -->
-                    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-                        <fieldset>
+                    <form class="contactForm" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                        <fieldset class="top">
                             <legend>Fråga</legend>
                             
-                            <label>Ärendetyp:</label>
+                            <label class="label">Ärendetyp:</label>
                             <select name="teknik">
                                 <option value="html">HTML 5</option>
                                 <option value="css">CSS 3</option>
@@ -46,19 +46,19 @@
                             
                             <br/><br/>
                             
-                            <label for="heading">Rubrik: </label>
-                			<input id="heading" type="text" name="heading" maxlength="30" value="" /><br/><br/>
+                            <label class="label" for="heading">Rubrik: </label>
+                			<input class="textfield" type="text" name="heading" maxlength="30" value="" /><br/><br/>
                 			
-                			<label for="question">Fråga: </label>
-                			<textarea id="question" name="question" rows="5" cols="40"></textarea>
+                			<label class="label" for="question">Fråga: </label>
+                			<textarea class="textfield" name="question" rows="5" cols="40"></textarea>
                         </fieldset>
                         
-                        <fieldset>
+                        <fieldset class="bottom">
                             <legend>Information om dig</legend>
-                            <label for="mail">Kontakta mig via mail</label><input id="mail" type="checkbox" name="mail" /><br>
-                            <label for="phone">Kontakta mig via telefon</label><input id="phone" type="checkbox" name="phone" />
+                            <span class="label">Kontakta mig via mail:</span><input class="contact" id="mail" type="checkbox" name="mail" /><br>
+                            <span class="label">Kontakta mig via telefon:</span><input class="contact" id="phone" type="checkbox" name="phone" />
                         </fieldset>
-                        
+                        <br/>
                         <input type="submit" name="button" value="Skicka frågan" />
                     </form>
                 </div>

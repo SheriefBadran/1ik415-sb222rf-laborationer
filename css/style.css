@@ -421,6 +421,25 @@ legend{
     margin-right: 20px;
 }
 
+.mail{
+    height: 20px;
+    background: url('pics/sprite.png') no-repeat left center;
+    background-position: 0 -287px;
+    padding-top: 5px;
+}
+
+.home{
+    height: 20px;
+    background: url('pics/sprite.png') no-repeat left center;
+    background-position: 0 0px;
+    padding-top: 5px;
+}
+
+.contact{
+    margin-top: 5px;
+    height: 20px;
+}
+
 select{
     border: 1px solid #233D57;
 }
@@ -433,14 +452,16 @@ select:focus{
     border: 1px solid #233D57;
 }
 
+input.textfield{
+    padding: 5px;
+}
+
 .textfield:focus{
     border: 1px solid #233D57;
     font-style: Arial, Helvetica sans-serif;
     color: #000;
 }
 /* END FORM STYLING */
-
-
 
 /* CONTENT END */
 

@@ -85,6 +85,7 @@ a{
 #container{
     width: 1200px;
     min-height: 960px;
+    min-width: 250px;
     margin: 25px auto 25px auto;
     border-radius: 10px;
     font-family: Arial, Helvetica, Sans-serif;
@@ -488,6 +489,86 @@ input.textfield{
     clear: both;
 }
 
-/**************************************************************/
+/************************** MEDIA QUERIES *******************************/
 
+@media only screen and (max-width: 480px){
+    #left, #content{
+        float: none;
+        width: 100%;
+    }
+    
+    #container{
+        max-width: 100%;
+    }
+    
+    .menuitem{
+        width: 100%;
+        text-align: center;
+    }
+    
+    img, iframe{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    div.imgBoxRight, div.imgBoxLeft{
+        max-width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    /*No margin left for repo links*/
+    .repos{
+        margin-left: 0px;
+    }
+    
+    /*Reducing white space around navigation menu*/
+    #left nav{
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    margin: 20px 20px;
+    }
+    
+    /*Reducing white space between posts*/
+    .post{
+        padding: 15px 15px;
+    }
+    
+    /*Hide table*/
+    table{
+        display: none;
+    }
+    
+    /*Reducing margin below the laboration links*/
+    .labLinks ul{
+        margin-bottom: 0px;
+    }
+    
+    .textfield{
+        width: 97%;
+        border: 1px solid #233D57;
+    }
+    
+    .label{
+        display: inline-block;
+        width: 100px;
+        vertical-align: top;
+        text-align: left;
+        margin-right: 20px;
+    }
+    
+.mail{
+    height: 0px;
+    background: none;
+    background-position: none;
+    padding-top: 0px;
+}
+
+.home{
+        height: 0px;
+        background: none;
+        background-position: none;
+        padding-top: 0px;
+    }
+}
 

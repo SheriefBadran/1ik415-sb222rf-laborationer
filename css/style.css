@@ -349,7 +349,7 @@ div.imgBoxRight{
 
 #hobbylist{
     margin-left: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 #hobbylist ul li{
@@ -497,6 +497,20 @@ input.textfield{
         width: 100%;
     }
     
+/*    #header{
+        height: 130px;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+*/
+
+    #header{
+        height: 130px;
+        background-image: url("pics/mobile_adapted_header.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+    
     #container{
         max-width: 100%;
     }
@@ -505,17 +519,26 @@ input.textfield{
         width: 100%;
         text-align: center;
     }
+    /* CONTAINER COLUMNS AND MENU END */
     
     img, iframe{
         max-width: 100%;
         height: auto;
     }
+    /*VIDEO STYLE END*/
     
     div.imgBoxRight, div.imgBoxLeft{
         max-width: 100%;
         float: none;
         text-align: center;
     }
+    
+    #presentationImg{
+        max-width: 100%;
+        margin: 0px;
+        border: 2px solid #4B81BA;
+    }
+    /*IMAGES END*/
     
     /*No margin left for repo links*/
     .repos{
@@ -534,20 +557,29 @@ input.textfield{
         padding: 15px 15px;
     }
     
-    /*Hide table*/
-    table{
-        display: none;
-    }
-    
     /*Reducing margin below the laboration links*/
     .labLinks ul{
         margin-bottom: 0px;
     }
+    /* WHITE SPACE (MARGIN AND PADDING) END */
+    
+    /*Hide table*/
+    table{
+        display: none;
+    }
+    /* TABLE END */
     
     .textfield{
         width: 97%;
         border: 1px solid #233D57;
     }
+    
+    .listHeading dl dd{
+        max-width: 90%;
+        word-wrap: break-word;
+    }
+    
+    /* TEXT STYLING END */
     
     .label{
         display: inline-block;
@@ -557,18 +589,19 @@ input.textfield{
         margin-right: 20px;
     }
     
-.mail{
-    height: 0px;
-    background: none;
-    background-position: none;
-    padding-top: 0px;
-}
-
-.home{
+    .mail{
         height: 0px;
         background: none;
         background-position: none;
         padding-top: 0px;
     }
+
+    .home{
+        height: 0px;
+        background: none;
+        background-position: none;
+        padding-top: 0px;
+    }
+    /* FORM STYLE END */
 }
 

@@ -87,7 +87,6 @@ a{
     min-height: 960px;
     min-width: 250px;
     margin: 25px auto 25px auto;
-    border-radius: 10px;
     font-family: Arial, Helvetica, Sans-serif;
     /*
     background-image: -webkit-linear-gradient(left,
@@ -123,7 +122,7 @@ a{
     background: #fff;
 }
 
-#header{
+header{
     height: 300px;
     background-image: url("pics/header.jpg");
 }
@@ -295,7 +294,16 @@ tfoot{
 
 /* TABLE DESIGN END */
 
+
+
 #content{
+    float: right;
+    padding-bottom: 10px;
+    width: 900px;
+    background: #f9f9f9;
+}
+
+main{
     float: right;
     padding-bottom: 10px;
     width: 900px;
@@ -307,14 +315,14 @@ iframe{
     width: 640px;
 }
 
-.post{
+main section article{
     display: block;
     margin: 0 auto;
     padding: 25px 25px;
     border-bottom: 2px solid #ff280f;
 }
 
-.post:last-of-type{
+main section article:last-of-type{
     border-bottom:none;
 }
 
@@ -472,16 +480,22 @@ input.textfield{
 
 /* CONTENT END */
 
-#footer{
+footer{
     clear: both;
     height: 200px;
     background-color: #fff;
     border-top: 1px solid #ff280f;
 }
 
-#footer p{
+
+
+footer p{
     text-align: center;
     margin-top: 90px;
+}
+
+footer #hcard-Sherief-Mohamed-Yehia-Badran{
+    text-align: center;
 }
 
 .clear{
@@ -492,19 +506,12 @@ input.textfield{
 /************************** MEDIA QUERIES *******************************/
 
 @media only screen and (max-width: 480px){
-    #left, #content{
+    #left, main{
         float: none;
         width: 100%;
     }
-    
-/*    #header{
-        height: 130px;
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-    }
-*/
 
-    #header{
+    header{
         height: 130px;
         background-image: url("pics/mobile_adapted_header.jpg");
         background-size: 100% auto;
@@ -559,7 +566,7 @@ input.textfield{
     }
     
     /*Reducing white space between posts*/
-    .post{
+    main section article{
         padding: 15px 15px;
     }
     

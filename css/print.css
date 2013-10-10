@@ -10,11 +10,11 @@ img{
  display: none;
 }
 
-#footer{
+footer{
     display: none;
 }
 
-#content{
+main{
     margin-left: 0px;
 }
 

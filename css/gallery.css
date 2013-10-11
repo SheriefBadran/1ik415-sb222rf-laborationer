@@ -1,0 +1,75 @@
+/* Tagit hjälp av http://zurb.com/playground/css3-polaroids */
+
+#container{
+    width: 90%;
+    margin: 15% auto;
+}
+
+#images{
+    position: relative;
+    text-align: center;
+}
+
+#images a{
+    position: relative;
+    background: red;
+    display: inline;
+    float: left;
+    margin: 0 15px 30px;
+    padding: 10px 10px 25px;
+    text-align: center;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    -webkit-box-shadow:  10px 10px 30px  #000;
+    -mox-box-shadow: 10px 10px 30px  #000;
+    -o-box-shadow: 10px 10px 30px  #000;
+    box-shadow: 10px 10px 30px  #000;
+    -webkit-transition: all .15s linear;
+    z-index: 0;
+
+}
+
+#images a:after{
+    position: relative;
+    content: attr(title);
+    top: 15px;
+}
+
+#images img{
+    display: block;
+    width: 300px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+#images a:nth-child(2n) img{
+    width: 300px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+#images a
+/*
+#images a:hover img{
+    width: 500px;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: width;
+    -moz-transition-duration: 1s;
+    -o-transition-property: width;
+    -o-transition-duration: 1s;
+    transition: width;
+    transition: 1s;
+    
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}*/
+

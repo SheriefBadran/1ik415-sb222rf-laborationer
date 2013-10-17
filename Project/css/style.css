@@ -1,0 +1,23 @@
+main > section:first-of-type{
+    float: left;
+}
+
+main > section:last-of-type{
+    float: right;
+}
+
+main > section{
+    width: 48%;
+}
+
+.mobile{
+    display: block;
+}
+
+/************************** MEDIA QUERIES *******************************/
+
+@media only screen and (max-width: 480px){
+    .desktop{
+        display: none;
+    }
+}

@@ -1,0 +1,4 @@
+{"ts":1382291729684,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1382295730322,"patch":[[{"diffs":[[1,"window.onload = function(){\n    if(navigator.geolocation){\n        navigator.geolocation.getCurrentPosition(success);\n    }\n    else{\n        error('Geo Location is not supported');\n    }\n    \n    \n}"]],"start1":0,"start2":0,"length1":0,"length2":199}]],"length":199,"saved":false}
+{"ts":1382296355443,"patch":[[{"diffs":[[0," \n    \n}"],[1,";"]],"start1":191,"start2":191,"length1":8,"length2":9}]],"length":200,"saved":false}
+{"ts":1382296378549,"patch":[[{"diffs":[[0," \n    \n}"],[-1,";"]],"start1":191,"start2":191,"length1":9,"length2":8}]],"length":199,"saved":false}
